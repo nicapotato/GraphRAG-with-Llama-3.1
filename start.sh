@@ -1,6 +1,3 @@
-"# GraphRAG-with-Llama-3.1" 
-
-
 # WORKS 12/10/2024
 cd /Users/nicapotato/Documents/repo/project/python/GraphRAG-with-Llama-3.1
 poetry init

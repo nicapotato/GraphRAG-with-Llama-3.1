@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "graphrag-with-llama-3-1"
+version = "0.1.0"
+description = ""
+authors = ["nicapotato <nick.brooks27@gmail.com>"]
+readme = "README.md"
+packages = [{include = "graphrag_with_llama_3"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.3"
+langchain-community = "^0.3.2"
+langchain-ollama = "^0.2.0"
+langchain-experimental = "^0.3.2"
+neo4j = "^5.25.0"
+tiktoken = "^0.8.0"
+yfiles-jupyter-graphs = "^1.8.1"
+python-dotenv = "^1.0.1"
+json-repair = "^0.30.0"
+langchain-openai = "^0.2.2"
+langchain-core = "^0.3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
